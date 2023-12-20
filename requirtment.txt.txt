@@ -3,3 +3,4 @@ pandas==2.1.1
 streamlit
 pickle
 pip==21.2.4
+sklearn
