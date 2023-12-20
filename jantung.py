@@ -2,11 +2,6 @@ import pickle
 import numpy as np
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
-from sklearn.tree import export_graphviz
-from sklearn.datasets import load_iris
-from PIL import Image
-import pydotplus
 
 # load save model
 model = pickle.load(open('penyakit_jantung.sav','rb'))
